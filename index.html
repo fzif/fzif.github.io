@@ -1,0 +1,47 @@
+<!-- えなに見てんのウケる -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>URL短縮</title>
+    <script type="text/javascript" src="formbutton.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>yuzupon1133式Scratchリンク短縮使い方</h1>
+    <h2>略称 Y3S (yuzupon1133's shortenURL system service)</h2>
+    <div class="line">
+        <h3>ユーザー</h3>
+        <p>&emsp;yuzupon1133.github.io/u/yuzupon1133-sub/</p>
+    </div>
+    <div class="line">
+        <h3>プロジェクト</h3>
+        <p>&emsp;yuzupon1133.github.io/p/566208230/</p>
+    </div>
+    <div class="line">
+        <h3>スタジオ</h3>
+        <p>&emsp;yuzupon1133.github.io/s/30228207/</p>
+    </div>
+    <div class="line">
+        <h3>フォーラム</h3>
+        <p>&emsp;yuzupon1133.github.io/f/5502962/</p>
+    </div>
+    <hr>
+    <h2>shortenURL 作成</h2>
+    <div class="unone">
+    <form id="shorten">
+        <div style="line-height:26px;">
+        <span>タイプ</span><br>
+        &emsp;<input type="radio" name="button" id="user" value="u" checked onclick="showtype()"><label for="user">ユーザー</label>
+        <input type="radio" name="button" id="project" value="p" onclick="showtype()"><label for="project">プロジェクト</label>
+        <input type="radio" name="button" id="studio" value="s" onclick="showtype()"><label for="studio">スタジオ</label>
+        <input type="radio" name="button" id="forum" value="f" onclick="showtype()"><label for="forum">フォーラム</label>
+        <br><span id="type">ユーザー名</span>
+        <br>&emsp;<input type="text" id="text" name="text" required size="57">
+        <br><input type="button" value="作成" onclick="formsubmit()"/>
+        <br>&emsp;<span id="exec" style="user-select: all;"></span>
+        </div>
+    </form>
+    </div>
+</body>
+</html>

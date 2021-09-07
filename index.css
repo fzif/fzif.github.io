@@ -1,0 +1,10 @@
+/* えなに見てんのウケる */
+.line {
+    line-height:15px; 
+}
+.unone {
+    user-select: none;
+}
+body {
+    margin-top: -10px;
+}
