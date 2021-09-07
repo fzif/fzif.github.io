@@ -10,17 +10,13 @@
             var tmp = "https://scratch.mit.edu/"
             if (href[0] == "u") {
                 location.href = tmp+"users/"+href[1]+"/";
-            }
-            if (href[0] == "p") {
+            } else if (href[0] == "p") {
                 location.href = tmp+"projects/"+href[1]+"/";
-            }
-            if (href[0] == "s") {
+            } else if (href[0] == "s") {
                 location.href = tmp+"studios/"+href[1]+"/";
-            }
-            if (href[0] == "f") {
+            } else if (href[0] == "f") {
                 location.href = tmp+"discuss/post/"+href[1]+"/";
-            }
-            else {
+            } else {
                 location.href = "https://fzif.github.io/";              
             }
         }
