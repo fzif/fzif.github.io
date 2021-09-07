@@ -6,7 +6,7 @@ function formsubmit () {
     if (t === "") {
         exec.innerHTML = "入力欄が空値です";
     } else {
-        exec.innerHTML = "https://yuzupon1133.github.io/"+b+"/"+t+"/";
+        exec.innerHTML = "https://fzif.github.io/"+b+"/"+t+"/";
     }
 }
 function showtype() {
