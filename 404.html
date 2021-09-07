@@ -6,7 +6,6 @@
     <title>URL短縮</title>
     <script type="text/javascript">
         function redirect() {
-            var exec = document.getElementById("wrong");
             var href = location.pathname.slice(1).split("/", 2);
             var tmp = "https://scratch.mit.edu/"
             if (href[0] == "u") {
@@ -28,7 +27,7 @@
     </script>
 </head>
 <body onload="redirect()">
-    <div id="wrong">リダイレクト中</div>
+    リダイレクト中
     
 </body>
 </html>
